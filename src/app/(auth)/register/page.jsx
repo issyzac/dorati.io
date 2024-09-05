@@ -6,7 +6,7 @@ import { Logo } from '@/components/Logo'
 import { SlimLayout } from '@/components/SlimLayout'
 
 export const metadata = {
-  title: 'Sign Up',
+  title: 'Apply Now',
 }
 
 export default function Register() {
@@ -14,7 +14,7 @@ export default function Register() {
     <SlimLayout>
       <div className="flex">
         <Link href="/" aria-label="Home">
-          <Logo className="h-10 w-auto" />
+          <h1> Dorati </h1>
         </Link>
       </div>
       <h2 className="mt-20 text-lg font-semibold text-gray-900">

@@ -13,7 +13,7 @@ export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-        Removing{' '}
+        Addressing{' '}
         <span className="relative whitespace-nowrap text-blue-600">
           <svg
             aria-hidden="true"
@@ -25,13 +25,20 @@ export function Hero() {
           </svg>
           <span className="relative">seasonality</span>
         </span>{' '}
-        in shared economy
+        in the shared economy
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
       Year-Round Support for Hosts: Financing Solutions to Boost Your Airbnb Income 
       and Minimize Seasonal Gaps
       </p>
+      
       <div className="mt-10 flex justify-center gap-x-6">
+        <p className="font-display text-base text-slate-900">
+          Are you a host?
+        </p>
+      </div>
+
+      <div className="mt-5 flex justify-center gap-x-6">
         <Button href="/register">Apply Now</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
