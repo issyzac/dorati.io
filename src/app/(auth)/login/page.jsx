@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Button } from '@/components/Button'
 import { TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
+import { DoratiLogo } from '@/components/DoratiLogo'
 import { SlimLayout } from '@/components/SlimLayout'
 
 export const metadata = {
@@ -14,7 +15,7 @@ export default function Login() {
     <SlimLayout>
       <div className="flex">
         <Link href="/" aria-label="Home">
-          <Logo className="h-10 w-auto" />
+          <DoratiLogo style={{ fontSize: '50px' }} />
         </Link>
       </div>
       <h2 className="mt-20 text-lg font-semibold text-gray-900">

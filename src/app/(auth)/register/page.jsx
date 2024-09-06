@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import { Button } from '@/components/Button'
 import { SelectField, TextField } from '@/components/Fields'
-import { Logo } from '@/components/Logo'
+import { DoratiLogo } from '@/components/DoratiLogo'
 import { SlimLayout } from '@/components/SlimLayout'
 
 export const metadata = {
@@ -14,7 +14,7 @@ export default function Register() {
     <SlimLayout>
       <div className="flex">
         <Link href="/" aria-label="Home">
-          <h1> Dorati </h1>
+          <DoratiLogo style={{ fontSize: '50px' }} />          
         </Link>
       </div>
       <h2 className="mt-20 text-lg font-semibold text-gray-900">
